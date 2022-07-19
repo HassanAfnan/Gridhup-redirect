@@ -6,11 +6,12 @@ function App() {
   return (
     <div className="App">
       <img src={GridLogo} />
-      <p>Congratulations</p>
-      <p>Your account has been created</p>
-      <div>
-        <a href="app://gridhup/login">Finish</a>
-      </div>
+      <p className="main-heading">Congratulations</p>
+      <p className="sub-heading">Your account has been created</p>
+
+      <a className="finish-btn" href="app://gridhup/login">
+        Finish
+      </a>
     </div>
   );
 }
