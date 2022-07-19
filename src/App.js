@@ -9,7 +9,7 @@ function App() {
       <p className="main-heading">Congratulations</p>
       <p className="sub-heading">Your account has been created</p>
 
-      <a className="finish-btn" href="app://gridhup/login">
+      <a className="finish-btn" href="app://gridhup/createroomsetup">
         Finish
       </a>
     </div>
